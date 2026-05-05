@@ -71,7 +71,7 @@ Never write these directly — owned by hooks and agents.
 
 ## Agent tiers
 
-All 4 agents documented in `./plugins/*/agents/*.md` with explicit output contracts. Tiers follow the @enchanted-plugins convention (Orchestrator/Opus, Executor/Sonnet, Validator/Haiku):
+All 4 agents documented in `./plugins/*/agents/*.md` with explicit output contracts. Tiers follow the @enchanter-ai convention (Orchestrator/Opus, Executor/Sonnet, Validator/Haiku):
 
 - `classifier` (Haiku) · `auditor` (Haiku) · `restorer` (Haiku) — validators
 - `adversary` (Sonnet) — executor (diff-grounded reasoning needs real analysis)

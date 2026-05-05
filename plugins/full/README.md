@@ -5,7 +5,7 @@
 This plugin has no hooks, skills, or agents of its own. It exists so you can install the whole 4-plugin pipeline with one command:
 
 ```
-/plugin marketplace add enchanted-plugins/crow
+/plugin marketplace add enchanter-ai/crow
 /plugin install full@crow
 ```
 

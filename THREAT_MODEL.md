@@ -12,7 +12,7 @@ Crow's job is to score the trustworthiness of Claude's edits. Everything depends
 
 ### Non-goals
 
-- Crow is not a malware scanner. If the attacker has already executed code on your machine, Crow is not the defense. (That's [Hydra](https://github.com/enchanted-plugins/hydra).)
+- Crow is not a malware scanner. If the attacker has already executed code on your machine, Crow is not the defense. (That's [Hydra](https://github.com/enchanter-ai/hydra).)
 - Crow is not a static analyzer. Semantic diff is a *relative* signal — how does this change compare to its predecessors? — not a semantic-correctness proof.
 - Crow does not guarantee malicious changes will be detected. It guarantees that **observable evidence** of malice is scored into the trust signal.
 

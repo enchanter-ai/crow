@@ -4,16 +4,16 @@ message: "If you use this software, please cite it as below."
 type: software
 authors:
   - alias: klaiderman
-    affiliation: "enchanted-plugins"
-repository-code: "https://github.com/enchanted-plugins/crow"
-url: "https://github.com/enchanted-plugins/crow"
+    affiliation: "enchanter-ai"
+repository-code: "https://github.com/enchanter-ai/crow"
+url: "https://github.com/enchanter-ai/crow"
 license: MIT
 version: "1.0.0"
 date-released: "2026-04-20"
 abstract: "Change-trust scoring for AI-assisted development: semantic diff, Beta-Bernoulli trust posteriors, information-gain review ordering, session continuity."
 keywords:
   - claude-code
-  - enchanted-plugins
+  - enchanter-ai
   - change-tracking
   - bayesian-trust
   - code-review

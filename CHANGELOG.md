@@ -25,5 +25,5 @@ The current shipped release. See [README.md](README.md) for the complete feature
 - Session-memory hook: continuity graph persists across compaction boundaries.
 - Attacker-input awareness: trust-gaming surfaces enumerated in [THREAT_MODEL.md](THREAT_MODEL.md).
 
-[Unreleased]: https://github.com/enchanted-plugins/crow/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/enchanted-plugins/crow/releases/tag/v1.0.0
+[Unreleased]: https://github.com/enchanter-ai/crow/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/enchanter-ai/crow/releases/tag/v1.0.0

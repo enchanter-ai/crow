@@ -80,4 +80,4 @@ Per change type (source, test, config, docs, schema, dependency), maintains a ru
 
 ---
 
-*Every formula maps to executable code in the enchanted-plugins ecosystem. The math runs.*
+*Every formula maps to executable code in the enchanter-ai ecosystem. The math runs.*

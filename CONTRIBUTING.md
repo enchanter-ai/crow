@@ -78,7 +78,7 @@ Register the plugin in `.claude-plugin/marketplace.json`.
   "name": "crow-<plugin-name>",
   "description": "<one-line description>",
   "version": "1.0.0",
-  "author": { "name": "enchanted-plugins" },
+  "author": { "name": "enchanter-ai" },
   "license": "MIT",
   "keywords": ["<relevant>", "<keywords>"],
   "commands": ["./commands/<cmd>.md"],

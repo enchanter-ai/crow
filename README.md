@@ -13,7 +13,7 @@
   <a href="https://www.repostatus.org/#active"><img alt="Project Status: Active" src="https://www.repostatus.org/badges/latest/active.svg"></a>
 </p>
 
-> An @enchanted-plugins product — algorithm-driven, agent-managed, self-learning.
+> An @enchanter-ai product — algorithm-driven, agent-managed, self-learning.
 
 Real-time change comprehension. Bayesian trust scoring. Information-gain review.
 
@@ -142,7 +142,7 @@ Crow ships as 4 plugins that feed each other (change-tracker → trust-scorer �
 **In Claude Code** (recommended):
 
 ```
-/plugin marketplace add enchanted-plugins/crow
+/plugin marketplace add enchanter-ai/crow
 /plugin install full@crow
 ```
 
@@ -153,7 +153,7 @@ Claude Code resolves the dependency list and installs all 4 plugins. Verify with
 **Via shell** (also installs `shared/*.sh` and `shared/scripts/*.py` locally so hooks work offline):
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/enchanted-plugins/crow/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/enchanter-ai/crow/main/install.sh)
 ```
 
 ## Quickstart
@@ -223,7 +223,7 @@ session-memory/state/
 
 ## Roadmap
 
-Tracked in [docs/ROADMAP.md](docs/ROADMAP.md) and the shared [ecosystem map](docs/ecosystem.md). For upcoming work specific to Crow, see issues tagged [roadmap](https://github.com/enchanted-plugins/crow/labels/roadmap).
+Tracked in [docs/ROADMAP.md](docs/ROADMAP.md) and the shared [ecosystem map](docs/ecosystem.md). For upcoming work specific to Crow, see issues tagged [roadmap](https://github.com/enchanter-ai/crow/labels/roadmap).
 
 ## The Science Behind Crow
 
@@ -383,7 +383,7 @@ If you use this project in research or derivative work, please cite it:
   title = {Crow},
   author = {{Klaiderman}},
   year = {2026},
-  url = {https://github.com/enchanted-plugins/crow}
+  url = {https://github.com/enchanter-ai/crow}
 }
 ```
 

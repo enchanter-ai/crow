@@ -1,8 +1,10 @@
 ---
 name: trust-assessment
 description: >
-  Use when trust alerts fire or developer asks about change safety.
-  Auto-triggers on: "is this safe", "trust score", "how confident",
+  Explains the Bayesian trust model — alpha/beta posteriors, change-type
+  priors, revert detection — and tells the developer why a specific change
+  scored as it did. Use when trust alerts fire or developer asks about change
+  safety. Auto-triggers on: "is this safe", "trust score", "how confident",
   "risk assessment", "should I review this", low trust stderr alert.
 allowed-tools:
   - Read
