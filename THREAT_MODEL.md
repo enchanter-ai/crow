@@ -21,7 +21,7 @@ Crow's job is to score the trustworthiness of Claude's edits. Everything depends
 Assume the attacker is:
 
 1. **Present in the tool-output stream.** They can inject text that Claude will read and act on — via a pulled doc, a fetched webpage, a search result, or a file they tricked Claude into reading.
-2. **Unable to modify Crow itself.** If they can edit `shared/conduct/` or `plugins/crow/`, it's game over — see Hydra's scope.
+2. **Unable to modify Crow itself.** If they can edit `shared/foundations/conduct/` or `plugins/crow/`, it's game over — see Hydra's scope.
 3. **Aware of Crow's scoring model.** The threat model is white-box: the attacker has read this document. Security-through-obscurity is not in scope.
 
 ## Attacker inputs
