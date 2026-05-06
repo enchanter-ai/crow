@@ -96,5 +96,5 @@ If you have found a way to inflate a trust score that this document does not cou
 
 - [SECURITY.md](SECURITY.md) — disclosure policy.
 - [docs/science/README.md](docs/science/README.md) — formal derivation of H1–H6.
-- [shared/conduct/hooks.md](shared/conduct/hooks.md) — why Crow's hooks are advisory, not blocking.
-- [shared/conduct/failure-modes.md](shared/conduct/failure-modes.md) § F11 Reward hacking — the general failure shape this document is defending against.
+- [shared/foundations/conduct/hooks.md](shared/foundations/conduct/hooks.md) — why Crow's hooks are advisory, not blocking.
+- [shared/foundations/conduct/failure-modes.md](shared/foundations/conduct/failure-modes.md) § F11 Reward hacking — the general failure shape this document is defending against.
