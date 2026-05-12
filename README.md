@@ -158,16 +158,13 @@ bash <(curl -s https://raw.githubusercontent.com/enchanter-ai/crow/main/install.
 
 ## Quickstart
 
-Install, let Claude edit something, read the trust score. Sixty seconds:
-
-```
-/plugin install full@crow
-# ...let Claude make any Write / Edit...
-/crow:trust
+```bash
+git clone https://github.com/enchanter-ai/crow
+cd crow
+./scripts/bootstrap.sh    # canonical first command — installs enchanter-foundations sibling
 ```
 
-Expected: `/crow:trust` prints per-file rows sorted riskiest-first — trust score, band (HIGH / MEDIUM / LOW), and the specific engine signals (H1 semantic delta, H2 Bayesian posterior, H3 info-gain, H4 continuity) driving the verdict. See [docs/getting-started.md](docs/getting-started.md) for the full guided first run and [THREAT_MODEL.md](THREAT_MODEL.md) for the attacker-input model Crow is hardened against.
-
+Without `./scripts/bootstrap.sh`, conduct imports will silently miss and Claude Code's `@`-loader will fail-soft. Always bootstrap first.
 ## 4 Plugins, 4 Agents, 6 Algorithms
 
 | Plugin | Hook | Command | What |
