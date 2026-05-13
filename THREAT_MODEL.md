@@ -21,7 +21,7 @@ Crow's job is to score the trustworthiness of Claude's edits. Everything depends
 Assume the attacker is:
 
 1. **Present in the tool-output stream.** They can inject text that Claude will read and act on — via a pulled doc, a fetched webpage, a search result, or a file they tricked Claude into reading.
-2. **Unable to modify Crow itself.** If they can edit `shared/foundations/conduct/` or `plugins/crow/`, it's game over — see Hydra's scope.
+2. **Unable to modify Crow itself.** If they can edit `shared/vis/conduct/` or `plugins/crow/`, it's game over — see Hydra's scope.
 3. **Aware of Crow's scoring model.** The threat model is white-box: the attacker has read this document. Security-through-obscurity is not in scope.
 
 ## Attacker inputs
@@ -96,5 +96,5 @@ If you have found a way to inflate a trust score that this document does not cou
 
 - [SECURITY.md](SECURITY.md) — disclosure policy.
 - [docs/science/README.md](docs/science/README.md) — formal derivation of H1–H6.
-- [../foundations/packages/core/conduct/hooks.md](../foundations/packages/core/conduct/hooks.md) — why Crow's hooks are advisory, not blocking.
-- [../foundations/packages/core/conduct/failure-modes.md](../foundations/packages/core/conduct/failure-modes.md) § F11 Reward hacking — the general failure shape this document is defending against.
+- [../vis/packages/core/conduct/hooks.md](../vis/packages/core/conduct/hooks.md) — why Crow's hooks are advisory, not blocking.
+- [../vis/packages/core/conduct/failure-modes.md](../vis/packages/core/conduct/failure-modes.md) § F11 Reward hacking — the general failure shape this document is defending against.
