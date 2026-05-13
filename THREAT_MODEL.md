@@ -96,5 +96,5 @@ If you have found a way to inflate a trust score that this document does not cou
 
 - [SECURITY.md](SECURITY.md) — disclosure policy.
 - [docs/science/README.md](docs/science/README.md) — formal derivation of H1–H6.
-- [../enchanter-foundations/packages/core/conduct/hooks.md](../enchanter-foundations/packages/core/conduct/hooks.md) — why Crow's hooks are advisory, not blocking.
-- [../enchanter-foundations/packages/core/conduct/failure-modes.md](../enchanter-foundations/packages/core/conduct/failure-modes.md) § F11 Reward hacking — the general failure shape this document is defending against.
+- [../foundations/packages/core/conduct/hooks.md](../foundations/packages/core/conduct/hooks.md) — why Crow's hooks are advisory, not blocking.
+- [../foundations/packages/core/conduct/failure-modes.md](../foundations/packages/core/conduct/failure-modes.md) § F11 Reward hacking — the general failure shape this document is defending against.
